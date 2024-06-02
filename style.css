@@ -1580,6 +1580,7 @@ Products Page
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
+  background-color: red; /* For testing */
 }
 
 .page-heading .inner-content {
@@ -1919,6 +1920,7 @@ About Us Page
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
+  background-color: red; /* For testing */
 }
 
 .about-us {
