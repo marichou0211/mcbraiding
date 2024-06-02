@@ -1576,7 +1576,7 @@ Products Page
 .page-heading {
   margin-top: 160px;
   margin-bottom: 30px;
-  background-image: 711f10bb-c54b-4ef2-be50-71d457b852e6.JPG;
+  background-image: url('711f10bb-c54b-4ef2-be50-71d457b852e6.JPG');
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -1915,7 +1915,7 @@ About Us Page
 .about-page-heading {
   margin-top: 160px;
   margin-bottom: 30px;
-  background-image: 711f10bb-c54b-4ef2-be50-71d457b852e6.JPG;
+  background-image: url('711f10bb-c54b-4ef2-be50-71d457b852e6.JPG');
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
