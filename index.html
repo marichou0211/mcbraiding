@@ -1,837 +1,217 @@
 <!DOCTYPE html>
 <html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <title>MC Hairbraiding</title>
 
-  <head>
+  <link href="https://fonts.googleapis.com/css?family=Poppins:200,300,400,600,700,800&display=swap" rel="stylesheet" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
 
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900&display=swap" rel="stylesheet">
+  <!-- Custom styles -->
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+  <link rel="stylesheet" href="assets/css/templatemo-hexashop.css" />
+  <style>
+    :root {
+      --purple: #800080;
+    }
 
-    <title>Braids by Shantel</title>
+    body {
+      font-size: 18px;
+      color: #222;
+    }
 
+    h1, h2, h3, h4, h5 {
+      color: var(--purple);
+      font-weight: 700;
+    }
 
-    <!-- Additional CSS Files -->
-    <link rel="stylesheet" type="text/css" href="bootstrap.min.css">
+    a {
+      color: var(--purple);
+    }
 
-    <link rel="stylesheet" type="text/css" href="font-awesome.css">
+    .main-border-button a {
+      font-weight: bold;
+      font-size: 20px;
+      color: var(--purple);
+      text-decoration: none;
+    }
 
-    <link rel="stylesheet" href="style.css">
+    .hero-overlay {
+      position: absolute;
+      top: 30%;
+      left: 5%;
+      right: 5%;
+      z-index: 10;
+      text-align: center;
+      color: var(--purple);
+    }
 
-    <link rel="stylesheet" href="owl-carousel.css">
+    .hero-overlay h1 {
+      font-size: 42px;
+      font-weight: 800;
+    }
 
-    <link rel="stylesheet" href="lightbox.css">
-<!--
+    .hero-overlay p {
+      font-size: 24px;
+      font-weight: 600;
+    }
 
-TemplateMo 571 Hexashop
+    @media (max-width: 768px) {
+      .hero-overlay {
+        top: 18%;
+      }
 
-https://templatemo.com/tm-571-hexashop
+      .hero-overlay h1 {
+        font-size: 32px;
+      }
 
--->
-    </head>
-    
-    <body>
-    
-    <!-- ***** Preloader Start ***** -->
-    <div id="preloader">
-        <div class="jumper">
-            <div></div>
-            <div></div>
-            <div></div>
+      .hero-overlay p {
+        font-size: 18px;
+      }
+    }
+
+    .thumb img {
+      width: 100%;
+      border-radius: 8px;
+    }
+
+    footer p, .section-heading, .subscribe ul li, .subscribe span {
+      color: var(--purple);
+      font-size: 18px;
+    }
+  </style>
+</head>
+
+<body>
+  <!-- Header -->
+  <header class="header-area header-sticky">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <nav class="main-nav">
+            <ul class="nav">
+              <li><a href="#top" class="active" style="color: var(--purple); font-weight: bold;">Home</a></li>
+              <li><a href="about.html" style="color: var(--purple); font-weight: bold;">About Us</a></li>
+              <li><a href="products.html" style="color: var(--purple); font-weight: bold;">Services</a></li>
+              <li><a href="contact.html" style="color: var(--purple); font-weight: bold;">Contact Us</a></li>
+            </ul>
+            <a class='menu-trigger'><span>Menu</span></a>
+          </nav>
         </div>
-    </div>  
-    <!-- ***** Preloader End ***** -->
-    
-    
-    <!-- ***** Header Area Start ***** -->
-    <header class="header-area header-sticky">
-        <div class="container">
-            <div class="row">
-                <div class="col-12">
-                    <nav class="main-nav">
-                        <!--***** Logo Start ***** 
-                        <a href="index.html" class="logo">
-                            <img src="assets/images/logo.png">
-                        </a>
-                        <***** Logo End ***** -->
-                        <!-- ***** Menu Start ***** -->
-                        <ul class="nav">
-                            <li class="scroll-to-section"><a href="#top" class="active" style="color: rgb(196, 51, 75);">Home</a></li>
-                           <!--<li class="scroll-to-section"><a href="#men">About Us</a></li>-->
-                           <!-- <li class="scroll-to-section"><a href="#women">Services</a></li>-->
-                           <li><a href="about.html" style="color: rgb(196, 51, 75);">About Us</a></li>
-                           <li><a href="products.html" style="color: rgb(196, 51, 75);">Services</a></li>
-                           <li><a href="contact.html" style="color: rgb(196, 51, 75);">Contact Us</a></li>
-                            <!--<li class="submenu">
-                                <a href="javascript:;">Pages</a>
-                                <ul>
-                                    <li><a href="about.html">About Us</a></li>
-                                    <li><a href="products.html">Products</a></li>
-                                    <li><a href="single-product.html">Single Product</a></li>
-                                    <li><a href="contact.html">Contact Us</a></li>
-                                </ul>
-                            </li>-->
-                            <!--<li class="submenu">
-                                <a href="javascript:;">Features</a>
-                                <ul>
-                                    <li><a href="#">Features Page 1</a></li>
-                                    <li><a href="#">Features Page 2</a></li>
-                                    <li><a href="#">Features Page 3</a></li>
-                                    <li><a rel="nofollow" href="https://templatemo.com/page/4" target="_blank">Template Page 4</a></li>
-                                </ul>
-                            </li>-->
-                            
-                        </ul>        
-                        <a class='menu-trigger'>
-                            <span>Menu</span>
-                        </a>
-                        <!-- ***** Menu End ***** -->
-                    </nav>
-                </div>
-            </div>
-        </div>
-    </header>
-    <!-- ***** Header Area End ***** -->
-
-    <!-- ***** Main Banner Area Start ***** -->
-    <div class="main-banner" id="top">
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-lg-6">
-                    <div class="left-content">
-                        <div class="thumb">
-                            <div class="inner-content">
-                                <h4 style="color: rgb(196, 51, 75);">BRAIDS BY SHANTEL</h4>
-                                <span style="color: rgb(196, 51, 75);"><strong>High Quality, Affordable &amp; African-Owned Hair Braiding services</strong></span>
-                                <div class="main-border-button">
-                                    <a href="contact.html" style="color: rgb(196, 51, 75);"><strong>Call Us Today!</strong></a>
-                                </div>
-                            </div>
-                            <img src="87d7ba55-a2d9-4883-8afe-13485a278855.JPG" alt="">
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-6">
-                    <div class="right-content">
-                        <div class="row">
-                            <div class="col-lg-6">
-                                <div class="right-first-image">
-                                    <div class="thumb">
-                                        <div class="inner-content">
-                                            <!--<h4>Women</h4>
-                                            <span>Best Clothes For Women</span>-->
-                                        </div>
-                                        <div class="hover-content">
-                                            <div class="inner">
-                                                <p></p>
-                                                <div class="main-border-button">
-                                                    <a href="products.html">Discover More</a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <img src="8a58f7cb-fa9b-4713-bfd0-82978ea3b7e9.JPG">
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-6">
-                                <div class="right-first-image">
-                                    <div class="thumb">
-                                        <div class="inner-content">
-                                            <!--<h4>Men</h4>
-                                            <span>Best Clothes For Men</span>-->
-                                        </div>
-                                        <div class="hover-content">
-                                            <div class="inner">
-                                                <p></p>
-                                                <div class="main-border-button">
-                                                    <a href="products.html">Discover More</a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <img src="ea7f2b55-2bab-4679-8650-a4b31a8f27a7.JPG">
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-6">
-                                <div class="right-first-image">
-                                    <div class="thumb">
-                                        <div class="inner-content">
-                                            <!--<h4>Kids</h4>
-                                            <span>Best Clothes For Kids</span>-->
-                                        </div>
-                                        <div class="hover-content">
-                                            <div class="inner">
-                                                <p></p>
-                                                <div class="main-border-button">
-                                                    <a href="products.html">Discover More</a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <img src="a2a0cd47-9096-40e3-9450-adcd03ba2ece.JPG">
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-6">
-                                <div class="right-first-image">
-                                    <div class="thumb">
-                                        <div class="inner-content">
-                                            <!--<h4>Accessories</h4>
-                                            <span>Best Trend Accessories</span>-->
-                                        </div>
-                                        <div class="hover-content">
-                                            <div class="inner">
-                                                <p></p>
-                                                <div class="main-border-button">
-                                                    <a href="products.html">Discover More</a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <img src="a42c7b43-2986-4681-83a8-22c34340c4d2.JPG">
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+      </div>
     </div>
-    <!-- ***** Main Banner Area End ***** -->
+  </header>
 
-    <!-- ***** Men Area Starts ***** 
-    <section class="section" id="men">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-6">
-                    <div class="section-heading">
-                        <h2>Men's Latest</h2>
-                        <span>Details to details is what makes Hexashop different from the other themes.</span>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="men-item-carousel">
-                        <div class="owl-men-item owl-carousel">
-                            <div class="item">
-                                <div class="thumb">
-                                    <div class="hover-content">
-                                        <ul>
-                                            <li><a href="single-product.html"><i class="fa fa-eye"></i></a></li>
-                                            <li><a href="single-product.html"><i class="fa fa-star"></i></a></li>
-                                            <li><a href="single-product.html"><i class="fa fa-shopping-cart"></i></a></li>
-                                        </ul>
-                                    </div>
-                                    <img src="assets/images/men-01.jpg" alt="">
-                                </div>
-                                <div class="down-content">
-                                    <h4>Classic Spring</h4>
-                                    <span>$120.00</span>
-                                    <ul class="stars">
-                                        <li><i class="fa fa-star"></i></li>
-                                        <li><i class="fa fa-star"></i></li>
-                                        <li><i class="fa fa-star"></i></li>
-                                        <li><i class="fa fa-star"></i></li>
-                                        <li><i class="fa fa-star"></i></li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div class="item">
-                                <div class="thumb">
-                                    <div class="hover-content">
-                                        <ul>
-                                            <li><a href="single-product.html"><i class="fa fa-eye"></i></a></li>
-                                            <li><a href="single-product.html"><i class="fa fa-star"></i></a></li>
-                                            <li><a href="single-product.html"><i class="fa fa-shopping-cart"></i></a></li>
-                                        </ul>
-                                    </div>
-                                    <img src="assets/images/men-02.jpg" alt="">
-                                </div>
-                                <div class="down-content">
-                                    <h4>Air Force 1 X</h4>
-                                    <span>$90.00</span>
-                                    <ul class="stars">
-                                        <li><i class="fa fa-star"></i></li>
-                                        <li><i class="fa fa-star"></i></li>
-                                        <li><i class="fa fa-star"></i></li>
-                                        <li><i class="fa fa-star"></i></li>
-                                        <li><i class="fa fa-star"></i></li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div class="item">
-                                <div class="thumb">
-                                    <div class="hover-content">
-                                        <ul>
-                                            <li><a href="single-product.html"><i class="fa fa-eye"></i></a></li>
-                                            <li><a href="single-product.html"><i class="fa fa-star"></i></a></li>
-                                            <li><a href="single-product.html"><i class="fa fa-shopping-cart"></i></a></li>
-                                        </ul>
-                                    </div>
-                                    <img src="assets/images/men-03.jpg" alt="">
-                                </div>
-                                <div class="down-content">
-                                    <h4>Love Nana ‘20</h4>
-                                    <span>$150.00</span>
-                                    <ul class="stars">
-                                        <li><i class="fa fa-star"></i></li>
-                                        <li><i class="fa fa-star"></i></li>
-                                        <li><i class="fa fa-star"></i></li>
-                                        <li><i class="fa fa-star"></i></li>
-                                        <li><i class="fa fa-star"></i></li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div class="item">
-                                <div class="thumb">
-                                    <div class="hover-content">
-                                        <ul>
-                                            <li><a href="single-product.html"><i class="fa fa-eye"></i></a></li>
-                                            <li><a href="single-product.html"><i class="fa fa-star"></i></a></li>
-                                            <li><a href="single-product.html"><i class="fa fa-shopping-cart"></i></a></li>
-                                        </ul>
-                                    </div>
-                                    <img src="assets/images/men-01.jpg" alt="">
-                                </div>
-                                <div class="down-content">
-                                    <h4>Classic Spring</h4>
-                                    <span>$120.00</span>
-                                    <ul class="stars">
-                                        <li><i class="fa fa-star"></i></li>
-                                        <li><i class="fa fa-star"></i></li>
-                                        <li><i class="fa fa-star"></i></li>
-                                        <li><i class="fa fa-star"></i></li>
-                                        <li><i class="fa fa-star"></i></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- ***** Men Area Ends ***** --> 
-
-    <!-- ***** Women Area Starts ***** 
-    <section class="section" id="women">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-6">
-                    <div class="section-heading">
-                        <h2>Women's Latest</h2>
-                        <span>Details to details is what makes Hexashop different from the other themes.</span>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="women-item-carousel">
-                        <div class="owl-women-item owl-carousel">
-                            <div class="item">
-                                <div class="thumb">
-                                    <div class="hover-content">
-                                        <ul>
-                                            <li><a href="single-product.html"><i class="fa fa-eye"></i></a></li>
-                                            <li><a href="single-product.html"><i class="fa fa-star"></i></a></li>
-                                            <li><a href="single-product.html"><i class="fa fa-shopping-cart"></i></a></li>
-                                        </ul>
-                                    </div>
-                                    <img src="assets/images/women-01.jpg" alt="">
-                                </div>
-                                <div class="down-content">
-                                    <h4>New Green Jacket</h4>
-                                    <span>$75.00</span>
-                                    <ul class="stars">
-                                        <li><i class="fa fa-star"></i></li>
-                                        <li><i class="fa fa-star"></i></li>
-                                        <li><i class="fa fa-star"></i></li>
-                                        <li><i class="fa fa-star"></i></li>
-                                        <li><i class="fa fa-star"></i></li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div class="item">
-                                <div class="thumb">
-                                    <div class="hover-content">
-                                        <ul>
-                                            <li><a href="single-product.html"><i class="fa fa-eye"></i></a></li>
-                                            <li><a href="single-product.html"><i class="fa fa-star"></i></a></li>
-                                            <li><a href="single-product.html"><i class="fa fa-shopping-cart"></i></a></li>
-                                        </ul>
-                                    </div>
-                                    <img src="assets/images/women-02.jpg" alt="">
-                                </div>
-                                <div class="down-content">
-                                    <h4>Classic Dress</h4>
-                                    <span>$45.00</span>
-                                    <ul class="stars">
-                                        <li><i class="fa fa-star"></i></li>
-                                        <li><i class="fa fa-star"></i></li>
-                                        <li><i class="fa fa-star"></i></li>
-                                        <li><i class="fa fa-star"></i></li>
-                                        <li><i class="fa fa-star"></i></li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div class="item">
-                                <div class="thumb">
-                                    <div class="hover-content">
-                                        <ul>
-                                            <li><a href="single-product.html"><i class="fa fa-eye"></i></a></li>
-                                            <li><a href="single-product.html"><i class="fa fa-star"></i></a></li>
-                                            <li><a href="single-product.html"><i class="fa fa-shopping-cart"></i></a></li>
-                                        </ul>
-                                    </div>
-                                    <img src="assets/images/women-03.jpg" alt="">
-                                </div>
-                                <div class="down-content">
-                                    <h4>Spring Collection</h4>
-                                    <span>$130.00</span>
-                                    <ul class="stars">
-                                        <li><i class="fa fa-star"></i></li>
-                                        <li><i class="fa fa-star"></i></li>
-                                        <li><i class="fa fa-star"></i></li>
-                                        <li><i class="fa fa-star"></i></li>
-                                        <li><i class="fa fa-star"></i></li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div class="item">
-                                <div class="thumb">
-                                    <div class="hover-content">
-                                        <ul>
-                                            <li><a href="single-product.html"><i class="fa fa-eye"></i></a></li>
-                                            <li><a href="single-product.html"><i class="fa fa-star"></i></a></li>
-                                            <li><a href="single-product.html"><i class="fa fa-shopping-cart"></i></a></li>
-                                        </ul>
-                                    </div>
-                                    <img src="assets/images/women-01.jpg" alt="">
-                                </div>
-                                <div class="down-content">
-                                    <h4>Classic Spring</h4>
-                                    <span>$120.00</span>
-                                    <ul class="stars">
-                                        <li><i class="fa fa-star"></i></li>
-                                        <li><i class="fa fa-star"></i></li>
-                                        <li><i class="fa fa-star"></i></li>
-                                        <li><i class="fa fa-star"></i></li>
-                                        <li><i class="fa fa-star"></i></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- ***** Women Area Ends ***** -->
-
-    <!-- ***** Kids Area Starts ***** 
-    <section class="section" id="kids">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-6">
-                    <div class="section-heading">
-                        <h2>Kid's Latest</h2>
-                        <span>Details to details is what makes Hexashop different from the other themes.</span>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="kid-item-carousel">
-                        <div class="owl-kid-item owl-carousel">
-                            <div class="item">
-                                <div class="thumb">
-                                    <div class="hover-content">
-                                        <ul>
-                                            <li><a href="single-product.html"><i class="fa fa-eye"></i></a></li>
-                                            <li><a href="single-product.html"><i class="fa fa-star"></i></a></li>
-                                            <li><a href="single-product.html"><i class="fa fa-shopping-cart"></i></a></li>
-                                        </ul>
-                                    </div>
-                                    <img src="assets/images/kid-01.jpg" alt="">
-                                </div>
-                                <div class="down-content">
-                                    <h4>School Collection</h4>
-                                    <span>$80.00</span>
-                                    <ul class="stars">
-                                        <li><i class="fa fa-star"></i></li>
-                                        <li><i class="fa fa-star"></i></li>
-                                        <li><i class="fa fa-star"></i></li>
-                                        <li><i class="fa fa-star"></i></li>
-                                        <li><i class="fa fa-star"></i></li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div class="item">
-                                <div class="thumb">
-                                    <div class="hover-content">
-                                        <ul>
-                                            <li><a href="single-product.html"><i class="fa fa-eye"></i></a></li>
-                                            <li><a href="single-product.html"><i class="fa fa-star"></i></a></li>
-                                            <li><a href="single-product.html"><i class="fa fa-shopping-cart"></i></a></li>
-                                        </ul>
-                                    </div>
-                                    <img src="assets/images/kid-02.jpg" alt="">
-                                </div>
-                                <div class="down-content">
-                                    <h4>Summer Cap</h4>
-                                    <span>$12.00</span>
-                                    <ul class="stars">
-                                        <li><i class="fa fa-star"></i></li>
-                                        <li><i class="fa fa-star"></i></li>
-                                        <li><i class="fa fa-star"></i></li>
-                                        <li><i class="fa fa-star"></i></li>
-                                        <li><i class="fa fa-star"></i></li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div class="item">
-                                <div class="thumb">
-                                    <div class="hover-content">
-                                        <ul>
-                                            <li><a href="single-product.html"><i class="fa fa-eye"></i></a></li>
-                                            <li><a href="single-product.html"><i class="fa fa-star"></i></a></li>
-                                            <li><a href="single-product.html"><i class="fa fa-shopping-cart"></i></a></li>
-                                        </ul>
-                                    </div>
-                                    <img src="assets/images/kid-03.jpg" alt="">
-                                </div>
-                                <div class="down-content">
-                                    <h4>Classic Kid</h4>
-                                    <span>$30.00</span>
-                                    <ul class="stars">
-                                        <li><i class="fa fa-star"></i></li>
-                                        <li><i class="fa fa-star"></i></li>
-                                        <li><i class="fa fa-star"></i></li>
-                                        <li><i class="fa fa-star"></i></li>
-                                        <li><i class="fa fa-star"></i></li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div class="item">
-                                <div class="thumb">
-                                    <div class="hover-content">
-                                        <ul>
-                                            <li><a href="single-product.html"><i class="fa fa-eye"></i></a></li>
-                                            <li><a href="single-product.html"><i class="fa fa-star"></i></a></li>
-                                            <li><a href="single-product.html"><i class="fa fa-shopping-cart"></i></a></li>
-                                        </ul>
-                                    </div>
-                                    <img src="assets/images/kid-01.jpg" alt="">
-                                </div>
-                                <div class="down-content">
-                                    <h4>Classic Spring</h4>
-                                    <span>$120.00</span>
-                                    <ul class="stars">
-                                        <li><i class="fa fa-star"></i></li>
-                                        <li><i class="fa fa-star"></i></li>
-                                        <li><i class="fa fa-star"></i></li>
-                                        <li><i class="fa fa-star"></i></li>
-                                        <li><i class="fa fa-star"></i></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- ***** Kids Area Ends ***** -->
-
-    <!-- ***** Explore Area Starts ***** 
-    <section class="section" id="explore">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-6">
-                    <div class="left-content">
-                        <h1>ABOUT US</h1>
-                        <span>Benita Besa is cooking rn,let her cook</span>
-                        <div class="quote">
-                            <i class="fa fa-quote-left"></i><p>Shantel is truly an expert at her craft. I highly recommend her! The service was 10/10</p>
-                        </div>
-                        <p>At Braids by Shantel, the beauty and health of womens braids are our top priorities. We guarantee fast, high-quality services at prices youll appreciate.</p>
-                        <p>We offer a wide range of services, call us today to get more information</p>
-                        <div class="main-border-button">
-                            <a href="products.html">Discover More</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-6">
-                    <div class="right-content">
-                        <div class="row">
-                            <div class="col-lg-6">
-                                <div class="leather">
-                                    <h4>Knotless Braids</h4>
-                                    <span>Discover our work</span>
-                                </div>
-                            </div>
-                            <div class="col-lg-6">
-                                <div class="first-image">
-                                    <img src="assets/images/explore-image-01.jpg" alt="">
-                                </div>
-                            </div>
-                            <div class="col-lg-6">
-                                <div class="second-image">
-                                    <img src="assets/images/explore-image-02.jpg" alt="">
-                                </div>
-                            </div>
-                            <div class="col-lg-6">
-                                <div class="types">
-                                    <h4>Cornrows</h4>
-                                    <span>Explore our various styles</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- ***** Explore Area Ends ***** -->
-
-    <!-- ***** Social Area Starts ***** 
-    <section class="section" id="social">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="section-heading">
-                        <h2>Contact Us Today to Make an Appointment!</h2>
-                        <span>Details to details is what makes Braids by Shantel different from the other braiders</span>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="container">
-            <div class="row images">
-                <div class="col-2">
-                    <div class="thumb">
-                        <div class="icon">
-                            <a href="http://instagram.com">
-                                <h6>Fashion</h6>
-                                <i class="fa fa-instagram"></i>
-                            </a>
-                        </div>
-                        <img src="assets/images/instagram-01.jpg" alt="">
-                    </div>
-                </div>
-                <div class="col-2">
-                    <div class="thumb">
-                        <div class="icon">
-                            <a href="http://instagram.com">
-                                <h6>New</h6>
-                                <i class="fa fa-instagram"></i>
-                            </a>
-                        </div>
-                        <img src="assets/images/instagram-02.jpg" alt="">
-                    </div>
-                </div>
-                <div class="col-2">
-                    <div class="thumb">
-                        <div class="icon">
-                            <a href="http://instagram.com">
-                                <h6>Brand</h6>
-                                <i class="fa fa-instagram"></i>
-                            </a>
-                        </div>
-                        <img src="assets/images/instagram-03.jpg" alt="">
-                    </div>
-                </div>
-                <div class="col-2">
-                    <div class="thumb">
-                        <div class="icon">
-                            <a href="http://instagram.com">
-                                <h6>Makeup</h6>
-                                <i class="fa fa-instagram"></i>
-                            </a>
-                        </div>
-                        <img src="assets/images/instagram-04.jpg" alt="">
-                    </div>
-                </div>
-                <div class="col-2">
-                    <div class="thumb">
-                        <div class="icon">
-                            <a href="http://instagram.com">
-                                <h6>Leather</h6>
-                                <i class="fa fa-instagram"></i>
-                            </a>
-                        </div>
-                        <img src="assets/images/instagram-05.jpg" alt="">
-                    </div>
-                </div>
-                <div class="col-2">
-                    <div class="thumb">
-                        <div class="icon">
-                            <a href="http://instagram.com">
-                                <h6>Bag</h6>
-                                <i class="fa fa-instagram"></i>
-                            </a>
-                        </div>
-                        <img src="assets/images/instagram-06.jpg" alt="">
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- ***** Social Area Ends ***** -->
-
-    <!-- ***** Subscribe Area Starts ***** -->
-    <div class="subscribe">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-8">
-                    <div class="section-heading">
-                        <h2 style="color: rgb(196, 51, 75);">CONTACT US TODAY TO BOOK YOUR APPOINTMENT!</h2>
-                    </div>
-                    <!--<form id="subscribe" action="" method="get">
-                        <div class="row">
-                          <div class="col-lg-5">
-                            <fieldset>
-                              <input name="name" type="text" id="name" placeholder="Your Name" required="">
-                            </fieldset>
-                          </div>
-                          <div class="col-lg-5">
-                            <fieldset>
-                              <input name="email" type="text" id="email" pattern="[^ @]*@[^ @]*" placeholder="Your Email Address" required="">
-                            </fieldset>
-                          </div>
-                          <div class="col-lg-2">
-                            <fieldset>
-                              <button type="submit" id="form-submit" class="main-dark-button"><i class="fa fa-paper-plane"></i></button>
-                            </fieldset>
-                          </div>
-                        </div>
-                    </form>-->
-                </div>
-                <div class="col-lg-4">
-                    <div class="row">
-                        <div class="col-6">
-                            <ul>
-                                <li>Shop Location:<br><span>6505 Dobbin Rd Salontra Suite 11, Columbia MD 21045, United States</span></li>
-                                <li>Phone:<br><span>667-678-1357</span></li>
-                            </ul>
-                        </div>
-                        <div class="col-6">
-                            <ul>
-                                <li>Work Hours:<br><span>08:00am - 08:00pm Monday-Saturday</span><br><span>05:00am-6:00pm Sunday</span></li>
-                                <li>Email:<br><span>braidsbyshantel@gmail.com</span></li>
-                                <li>Social Media:<br><span><a href="https://m.facebook.com/people/Braids-by-shantel/61557930963632/">Facebook</a>, <a href="https://www.tiktok.com/@masss318?_t=8mDhwj8Vlte&_r=1">Tiktok</a>,   <a href="#">Instagram</a></span></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+  <!-- Hero Banner -->
+  <div class="main-banner position-relative" id="top">
+    <div class="hero-overlay">
+      <h1>MC HAIRBRAIDING</h1>
+      <p>High Quality, Affordable & African-Owned Hair Braiding Services</p>
+      <div class="main-border-button mt-2">
+        <a href="tel:+16676781357">Call Us Today!</a>
+      </div>
     </div>
-    <!-- ***** Subscribe Area Ends ***** -->
-    
-    <!-- ***** Footer Start ***** -->
-    <footer>
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-3">
-                    <div class="first-item">
-                       
-                        <!--<ul>
-                            <li><a href="#">16501 Collins Ave, Sunny Isles Beach, FL 33160, United States</a></li>
-                            <li><a href="#">hexashop@company.com</a></li>
-                            <li><a href="#">010-020-0340</a></li>
-                        </ul>-->
-                    </div>
-                </div>
-                <!--<div class="col-lg-3">
-                    <h4>Shopping &amp; Categories</h4>
-                    <ul>
-                        <li><a href="#">Men’s Shopping</a></li>
-                        <li><a href="#">Women’s Shopping</a></li>
-                        <li><a href="#">Kid's Shopping</a></li>
-                    </ul>
-                </div>
-                <div class="col-lg-3">
-                    <h4>Useful Links</h4>
-                    <ul>
-                        <li><a href="#">Homepage</a></li>
-                        <li><a href="#">About Us</a></li>
-                        <li><a href="#">Help</a></li>
-                        <li><a href="#">Contact Us</a></li>
-                    </ul>
-                </div>
-                <div class="col-lg-3">
-                    <h4>Help &amp; Information</h4>
-                    <ul>
-                        <li><a href="#">Help</a></li>
-                        <li><a href="#">FAQ's</a></li>
-                        <li><a href="#">Shipping</a></li>
-                        <li><a href="#">Tracking ID</a></li>
-                    </ul>
-                </div>-->
-                <div class="col-lg-12">
-                    <div class="under-footer">
-                        <p>Copyright © 2024 Braids by Shantel. All Rights Reserved. 
-                        
-                        <br>Design: <a href="https://templatemo.com" target="_parent" title="free css templates">BraidsbyShantel</a></p>
-                        <!--<ul>
-                            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                            <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                        </ul>-->
-                    </div>
-                </div>
-            </div>
+    <img src="assets/images/87d7ba55-a2d9-4883-8afe-13485a278855.JPG" alt="Braiding Hero" />
+  </div>
+
+  <!-- Service Styles -->
+  <section class="container my-5">
+    <div class="row">
+      <div class="col-md-6 mb-4">
+        <div class="thumb text-center">
+          <img src="assets/images/72203f91-fb3d-4fba-a18b-973fbae7084a.JPG" alt="Knotless Braids">
+          <div class="main-border-button mt-3">
+            <a href="knotlessbraids.html">KNOTLESS BRAIDS (BOOK NOW)</a>
+          </div>
         </div>
-    </footer>
-    
+      </div>
 
-    <!-- jQuery -->
-    <script src="jquery-2.1.0.min.js"></script>
+      <div class="col-md-6 mb-4">
+        <div class="thumb text-center">
+          <img src="assets/images/74441d37-5937-4fc5-9afd-8c6d2419c15a.JPG" alt="Boho Braids">
+          <div class="main-border-button mt-3">
+            <a href="bohobraids.html">BOHO BRAIDS (BOOK NOW)</a>
+          </div>
+        </div>
+      </div>
 
-    <!-- Bootstrap -->
-    <script src="popper.js"></script>
-    <script src="bootstrap.min.js"></script>
+      <div class="col-md-6 mb-4">
+        <div class="thumb text-center">
+          <img src="assets/images/251e604f-ac50-459b-a5b7-c4751c4b99c2.JPG" alt="Cornrows">
+          <div class="main-border-button mt-3">
+            <a href="products.html">CORNROWS STYLES (BOOK NOW)</a>
+          </div>
+        </div>
+      </div>
 
-    <!-- Plugins -->
-    <script src="owl-carousel.js"></script>
-    <script src="accordions.js"></script>
-    <script src="datepicker.js"></script>
-    <script src="scrollreveal.min.js"></script>
-    <script src="waypoints.min.js"></script>
-    <script src="jquery.counterup.min.js"></script>
-    <script src="imgfix.min.js"></script> 
-    <script src="slick.js"></script> 
-    <script src="lightbox.js"></script> 
-    <script src="isotope.js"></script> 
-    
-    <!-- Global Init -->
-    <script src="custom.js"></script>
+      <div class="col-md-6 mb-4">
+        <div class="thumb text-center">
+          <img src="assets/images/a2a0cd47-9096-40e3-9450-adcd03ba2ece.JPG" alt="More Styles">
+          <div class="main-border-button mt-3">
+            <a href="products.html">SEE ALL STYLES</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
 
-    <script>
+  <!-- Call-to-Book Section -->
+  <section style="padding: 60px 20px; text-align: center; background-color: #fdf1f3;">
+    <p style="font-size: 32px; color: var(--purple); font-weight: 800; margin-bottom: 10px;">
+      📞 <a href="tel:+16676781357" style="color: var(--purple); text-decoration: none;">667-678-1357</a>
+    </p>
+    <p style="font-size: 20px; color: #000;">Call or Text Now to Book Your Appointment</p>
+  </section>
 
-        $(function() {
-            var selectedClass = "";
-            $("p").click(function(){
-            selectedClass = $(this).attr("data-rel");
-            $("#portfolio").fadeTo(50, 0.1);
-                $("#portfolio div").not("."+selectedClass).fadeOut();
-            setTimeout(function() {
-              $("."+selectedClass).fadeIn();
-              $("#portfolio").fadeTo(50, 1);
-            }, 500);
-                
-            });
-        });
+  <!-- Contact Section -->
+  <div class="subscribe">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8">
+          <div class="section-heading">
+            <h2>50% off any styles for our first-time clients</h2>
+            <span><strong>CONTACT US TODAY TO BOOK YOUR APPOINTMENT!</strong></span>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="row">
+            <div class="col-6">
+              <ul>
+                <li>Shop Location:<br><span>Dobbin Rd, Columbia, MD 21045</span></li>
+                <li>Phone:<br><span><a href="tel:+16676781357" style="text-decoration: none; color: #000;">667-678-1357</a></span></li>
+              </ul>
+            </div>
+            <div class="col-6">
+              <ul>
+                <li>Work Hours:<br><span>08:00am - 08:00pm Mon-Sat<br>05:00am - 6:00pm Sunday</span></li>
+                <li>Email:<br><span>braidsbyshantel@gmail.com</span></li>
+                <li>Social Media:<br>
+                  <span>
+                    <a href="https://m.facebook.com/people/Braids-by-shantel/61557930963632/">Facebook</a>,
+                    <a href="https://www.tiktok.com/@masss318?_t=8mDhwj8Vlte&_r=1">TikTok</a>,
+                    <a href="#">Instagram</a>
+                  </span>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 
-    </script>
+  <!-- Footer -->
+  <footer class="text-center mt-5 mb-4">
+    <p>
+      Address: Dobbin Rd, Columbia, MD 21045 | Email: braidsbyshantel@gmail.com
+    </p>
+    <p>
+      © 2024 MC Hairbraiding. All rights reserved.
+    </p>
+  </footer>
 
-  </body>
+  <!-- Scripts -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
 </html>
